@@ -10,5 +10,5 @@ resource "aws_instance" "my_ec2" {
     Name = "TerraformEC2"
   }
 
-  key_name = "your-key-pair-name"  # Replace with your actual key pair
+  key_name = "sp"  # Replace with your actual key pair
 }
